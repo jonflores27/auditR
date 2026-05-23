@@ -1,11 +1,16 @@
 Package: auditR
-Title: What the Package Does (One Line, Title Case)
+Title: Analyzes Plastic Audits
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Jonathan", "Flores Martinez", , "first.last@example.com", role = c("aut", "cre"))
+Description: This package has functions that makes analysis of plastic audit data as easy as writing a single function!.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
+Imports: 
+    readr
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
